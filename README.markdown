@@ -22,7 +22,3 @@ Within your ping handler function you surely want to reply with a pong iq:
       ...
 	  return true;
     }
-
-## ToDo
-
-- write specs
