@@ -15,7 +15,7 @@
     if (typeof define === 'function' && define.amd) {
         // AMD. Register as an anonymous module.
         define([
-            "strophe"
+            "strophe.js"
         ], function (Strophe) {
             factory(
                 Strophe.Strophe,
