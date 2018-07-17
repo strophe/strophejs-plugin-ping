@@ -1,6 +1,6 @@
 {
   "name": "strophejs-plugin-ping",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "A strophe.js plugin to provide XMPP Ping (XEP-0199)",
   "main": "strophe.ping.js",
   "scripts": {
