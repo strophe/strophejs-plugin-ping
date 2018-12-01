@@ -2,8 +2,10 @@
   "name": "strophejs-plugin-ping",
   "version": "0.0.3",
   "description": "A strophe.js plugin to provide XMPP Ping (XEP-0199)",
-  "main": "strophe.ping.js",
+  "main": "lib/strophe.ping.js",
   "scripts": {
+    "build": "rollup src/strophe.ping.js -f umd -g strophe.js:window -o lib/strophe.ping.js -m",
+    "prepare": "npm run --silent build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,5 +25,8 @@
   "homepage": "https://github.com/strophe/strophejs-plugin-ping#readme",
   "dependencies": {
     "strophe.js": "^1.2.12"
+  },
+  "devDependencies": {
+    "rollup": "^0.67.3"
   }
 }
