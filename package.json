@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/strophe/strophejs-plugin-ping#readme",
   "peerDependencies": {
-    "strophe.js": "^1.2.12"
+    "strophe.js": "^1.2.12 || ^2.0.0"
   },
   "devDependencies": {
     "rollup": "^0.67.3"
